@@ -4,7 +4,7 @@ One card per practice resource in [pending.md](pending.md). Each card reads top 
 
 ```text
 SCOPE IT ──▶ RUN IT ──▶ PROVE QUALITY ──▶ CONTROL RISK ──▶ SHOW VALUE
-  1, 2        3, 4         5, 6             7, 8            9, 10
+  1, 2        3, 4         5, 6               7               8
 ```
 
 ## 1. Building effective agents
@@ -195,36 +195,7 @@ PM MOVE   For customer-facing agents, report "all k attempts succeed",
           not "at least one succeeds".
 ```
 
-## 7. Why Do Multi-Agent LLM Systems Fail? (MAST)
-
-[Cemri, Pan et al., 2025](https://arxiv.org/abs/2503.13657) · Model: the paper's own taxonomy, 14 failure modes in 3 groups, from 1,600+ annotated runs.
-
-```text
-PROBLEM   Multi-agent systems promise much, but gain little over single
-          agents on benchmarks, and nobody had mapped why.
-
-MODEL     Share of observed failures (paper's figures; group totals added)
-
-  SYSTEM DESIGN ............................................ 44%
-    step repetition 15.7 · unaware of when to stop 12.4 ·
-    disobeys task spec 11.8 · loses history 2.8 · disobeys role 1.5
-  INTER-AGENT MISALIGNMENT ................................. 32%
-    reasoning-action mismatch 13.2 · task derailment 7.4 ·
-    fails to ask for clarification 6.8 · conversation reset 2.2 ·
-    ignores other agent 1.9 · withholds information 0.85
-  TASK VERIFICATION ........................................ 24%
-    incorrect verification 9.1 · no or incomplete verification 8.2 ·
-    stops too early 6.2
-
-SOLUTION  Quick fixes help a little: clearer roles +9.4%, an added
-          verification step +15.6%. But results are inconsistent; high
-          reliability needs combined changes to design and models.
-
-PM MOVE   Paste the 14 modes into the risk register of any multi-agent
-          project, each with an owner.
-```
-
-## 8. AI Incident Database
+## 7. AI Incident Database
 
 [Responsible AI Collaborative](https://incidentdatabase.ai/) · Model: the pre-mortem (imagine the project has already failed, then ask why).
 
@@ -251,30 +222,7 @@ PM MOVE   Make "three incidents like ours" a required input to the
           project charter.
 ```
 
-## 9. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
-
-[METR, July 2025](https://arxiv.org/abs/2507.09089) · Model: the perception gap (what people believe versus what you measure).
-
-```text
-PROBLEM   AI productivity is claimed from surveys and forecasts.
-
-MODEL     Randomised trial: 16 experienced developers, 246 tasks
-
-                    FASTER ◀──────────── 0 ────────────▶ SLOWER
-  economists forecast   −39% ●
-  ML experts forecast   −38% ●
-  developers forecast   −24%       ●
-  developers believed   −20%        ●     (after doing the work)
-  MEASURED                                 │       ● +19%
-
-SOLUTION  Belief and reality pointed in opposite directions, even for
-          the people doing the work.
-
-PM MOVE   Never sign off an AI ROI claim from a survey. Measure task
-          time with and without AI, on your own work.
-```
-
-## 10. Measuring Agents in Production
+## 8. Measuring Agents in Production
 
 [Pan et al., ICML 2026](https://arxiv.org/abs/2512.04123) · Model: bounded autonomy (agents that ship are kept on a short leash).
 
