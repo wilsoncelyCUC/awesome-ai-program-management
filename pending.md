@@ -14,6 +14,8 @@ Candidates that are not yet verified against their primary source. Each one says
 ## Lifecycle and Methods
 
 - CPMAI methodology - The six-phase AI project lifecycle behind PMI-CPMAI. Still to check: a primary description that is not behind a course paywall.
+- [Common pitfalls when building generative AI applications](https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html) - Chip Huyen (January 2025) names six pitfalls, from using generative AI when it is not needed to over-indexing on early success; a ready pre-project review. Still to check: your own read.
+- [Why your AI product needs a different development lifecycle](https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different) - Reganti and Badam (August 2025) propose Continuous Calibration/Continuous Development, where an AI product earns agency version by version. Still to check: your own read; the authors sell a course.
 
 ## Governance and Regulation
 
@@ -23,6 +25,8 @@ Candidates that are not yet verified against their primary source. Each one says
 
 - Google Agent Quality - Outcome, path, four checks and a loop for judging an agent. Still to check: the canonical link.
 - [evals-from-scratch](https://github.com/wilsoncelyCUC/evals-from-scratch) - Executed notebooks that build agent evaluations from first principles. Still to check: the curator's own work, so a second person should review it before it is listed.
+- [A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/posts/field-guide/) - Hamel Husain (March 2025) on error analysis, which he calls the highest-ROI activity in AI development. Still to check: your own read.
+- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) - Anthropic (January 2026): start agent evals with 20 to 50 simple tasks drawn from real failures. Still to check: your own read.
 
 ## Cost
 
@@ -31,6 +35,23 @@ Candidates that are not yet verified against their primary source. Each one says
 ## Agentic Delivery
 
 - Running AI coding agents as a delivery team - Lanes, reviews and merge order from a working lab project. Still to check: needs a public write-up first.
+- [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic (December 2024): find the simplest solution possible and add agentic complexity only when needed. Still to check: your own read.
+
+## Risk and Failure
+
+- [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) - Cemri, Pan et al. (2025) derive 14 failure modes in 3 categories from over 1,600 annotated traces across 7 frameworks; usable as a risk-register checklist. Still to check: your own read.
+- [AI Incident Database](https://incidentdatabase.ai/) - The Responsible AI Collaborative's index of real AI harms and near-harms, for pre-mortems in your domain. Still to check: your own read.
+- The Root Causes of Failure for Artificial Intelligence Projects (RAND, 2024) - Interview-based study of why AI projects fail. Still to check: rand.org blocked automated reading; open it by hand.
+
+## Value and Evidence
+
+- [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://arxiv.org/abs/2507.09089) - METR's randomised trial (July 2025): developers forecast a 24% speed-up, but AI made them 19% slower. Still to check: your own read.
+- [Measuring Agents in Production](https://arxiv.org/abs/2512.04123) - Pan et al. (ICML 2026): 68% of production agents run at most 10 steps before human intervention, 70% prompt off-the-shelf models, 74% rely mainly on human evaluation. Still to check: your own read.
+- The GenAI Divide: State of AI in Business 2025 (MIT NANDA) - Source of the widely repeated "95% of AI pilots fail" claim. Still to check: no official copy found; do not list until one is.
+
+## Case Studies
+
+- [Musings on Building a Generative AI Product](https://www.linkedin.com/blog/engineering/generative-ai/musings-on-building-a-generative-ai-product) - LinkedIn (April 2024): 80% of the target experience in one month, then four more months to pass 95%. Still to check: your own read.
 
 ## Tools
 
