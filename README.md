@@ -2,7 +2,7 @@
 
 > A curated list of resources for leading AI programs and projects, where every entry is checked against its primary source before it is listed.
 
-Standards, certifications, governance and regulation for program and project managers who deliver AI. Candidates that are not yet verified wait in [pending.md](pending.md). Visual notes on each resource are in [learning-cards.md](learning-cards.md), and [automation-map.md](automation-map.md) shows which management work AI coding frameworks already do.
+Standards, certifications, governance and regulation for program and project managers who deliver AI. Candidates that are not yet verified wait in [pending.md](pending.md). Visual notes on each resource are in [learning-cards.md](learning-cards.md), and [automation-map.md](automation-map.md) shows which management work AI coding frameworks already do. [industry-view.md](industry-view.md) ranks the problems AI program managers keep raising, which this list sets out to answer.
 
 ## Contents
 
